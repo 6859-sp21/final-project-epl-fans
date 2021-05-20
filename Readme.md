@@ -33,14 +33,14 @@ In the first meeting, we decided the topic for doing a project with English Prem
  
 ### **~6 weeks of concerted efforts**
 #### **1st Week**
-Both started to explore the different datasets. After the first week, we decided to make visualizations for three different directions, Player Static, Team Performance, and Social Media Analysis. ( Both of us spent around 8 hours this week ) 
+Both started to explore the different datasets. After the first week, we decided to make visualizations for three highlevel directions, Player Static, Team Performance, and Social Media Analysis. ( Both of us spent around 8 hours this week ) 
 #### **2nd Week**
-We received feedback from the Professor and decided to spend one more week to brainstorm the idea. We went to the office hours and explored more datasets. ( Both of us spent 8 hours this week )
+We received feedback from the Professor and decided to spend one more week to brainstorm the idea. We went to the office hour and explored more datasets. ( Both of us spent 8 hours this week )
 #### **3rd Week**
 From our data, we decided the scope of visualizations, a bubble chart for transfer fee, a radar chart for team performance, a line chart for attack points, bubble chart for social media number comparison and a map chart for social media followers . ( Both of us spent 8 hours this week )
 #### **4th Week**
 - Jo : Bubble chart for transfer fee  ( ~ 12 hours )
-Brandon : Map chart for social media follower have completed ( ~ 12 hours ) 
+- Brandon : Map chart for social media follower have completed ( ~ 12 hours ) 
 #### **5th Week**
 - Jo : Radar chart for team performance was completed ( ~ 12 hours )
 - Brandon : Line chart for attacking point was completed ( ~ 12 hours )
