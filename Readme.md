@@ -1,7 +1,5 @@
 # 6.859 - Interactive Data Visualization 
 ## **Final Project** ###
-<br>
-
 
 ### **Project Title:** 360 Degrees Analysis on the Most Beloved Football Club in English Premier League: Manchester United
 
@@ -9,14 +7,11 @@
 
 #### **Video link:** https://youtu.be/4JlkE2x6xQs
 
+#### **Paper Link:** https://github.com/6859-sp21/final-project-epl-fans/blob/master/FinalPaper.pdf
 
 ### **Team:**
 * Brandon Chen (brandonc@mit.edu)
 * ByeongJo Kong (kongb@mit.edu)
-<br>
-
-### **Paper Link:**
-
 
 ### **Abstract:**
 Manchester United is considered the most popular soccer club in the world. Its worldwide fan base reaches a 1.1 billion milestone in 2019. There are several reasons that make Manchester United so popular. Firstly, its team performance is among the top tier in the league. It has won 20 League titles, 12 FA Cups, five League Cups and a record 21 FA Community Shields. 
