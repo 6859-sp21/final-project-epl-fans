@@ -37,7 +37,7 @@ Both started to explore the different datasets. After the first week, we decided
 #### **2nd Week**
 We received feedback from the Professor and decided to spend one more week to brainstorm the idea. We went to the office hour and explored more datasets. ( Both of us spent 8 hours this week )
 #### **3rd Week**
-From our data, we decided the scope of visualizations, a bubble chart for transfer fee, a radar chart for team performance, a line chart for attack points, bubble chart for social media number comparison and a map chart for social media followers . ( Both of us spent 8 hours this week )
+Based on the avaialbe dataset, we finalized the scope of visualizations, a bubble chart for transfer fee, a radar chart for team performance, a line chart for attack points, bubble chart for social media number comparison and a map chart for social media followers . ( Both of us spent 8 hours this week )
 #### **4th Week**
 - Jo : Bubble chart for transfer fee  ( ~ 12 hours )
 - Brandon : Map chart for social media follower have completed ( ~ 12 hours ) 
