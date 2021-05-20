@@ -15,7 +15,7 @@
 * ByeongJo Kong (kongb@mit.edu)
 <br>
 
-### **Paper Link:**
+### **Paper Link:** https://github.com/6859-sp21/final-project-epl-fans/blob/master/FinalPaper.pdf
 
 
 ### **Abstract:**
