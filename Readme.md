@@ -7,7 +7,7 @@
 
 #### **Video link:** https://youtu.be/4JlkE2x6xQs
 
-#### **Paper Link:** https://github.com/6859-sp21/final-project-epl-fans/blob/master/FinalPaper.pdf
+#### **Paper Link:** https://github.com/6859-sp21/final-project-epl-fans/blob/master/final/FinalPaper.pdf
 
 ### **Team:**
 * Brandon Chen (brandonc@mit.edu)
