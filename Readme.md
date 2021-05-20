@@ -2,14 +2,14 @@
 ## **Final Project** ###
 <br>
 
-### **Visualization Link:**
- https://6859-sp21.github.io/final-project-epl-fans/index.html
-
-### **Video link:**
-https://youtu.be/4JlkE2x6xQs
 
 ### **Project Title:**
  360 Degrees Analysis on the Most Beloved Football Club in English Premier League: Manchester United
+
+#### **Visualization Link:** https://6859-sp21.github.io/final-project-epl-fans/index.html
+
+#### **Video link:** https://youtu.be/4JlkE2x6xQs
+
 
 ### **Team:**
 * Brandon Chen (brandonc@mit.edu)
