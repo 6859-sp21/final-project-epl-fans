@@ -3,8 +3,7 @@
 <br>
 
 
-### **Project Title:**
- 360 Degrees Analysis on the Most Beloved Football Club in English Premier League: Manchester United
+### **Project Title:** 360 Degrees Analysis on the Most Beloved Football Club in English Premier League: Manchester United
 
 #### **Visualization Link:** https://6859-sp21.github.io/final-project-epl-fans/index.html
 
