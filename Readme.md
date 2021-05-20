@@ -1,64 +1,58 @@
-## 6.859 - Interactive Data Visualization
-<b>A4 Final Submission</b><br>
-Link: https://6859-sp21.github.io/a4-education-in-korea-and-united-states/
+# 6.859 - Interactive Data Visualization 
+## **Final Project** ###
+<br>
 
-Updated Project Title : Adult Education Levels in different Countries
-#### **Team:**
+### **Visualization Link:**
+ https://6859-sp21.github.io/final-project-epl-fans/index.html
+
+
+### **Project Title:**
+ 360 Degrees Analysis on the Most Beloved Football Club in English Premier League: Manchester United
+
+### **Team:**
 * Brandon Chen (brandonc@mit.edu)
 * ByeongJo Kong (kongb@mit.edu)
 <br>
 
-**Dataset:** OECD Data Library<br>
-https://data.oecd.org/eduatt/adult-education-level.htm#indicator-chart
+### **Video link:**
+https://youtu.be/4JlkE2x6xQs
+
+### **Paper Link:**
 
 
-**Design Decision** <br>
-***Overview***<br>
-When we start the assignment, we want to explore the education level in different countries. In the beginning,  we were evaluating two encodings, line chart and bar chart, because we wanted to convey both "trend" and "comparison" to our reader. We finally decided to focus on "comparison," so we choose Bar Chart as our primary encoding type.  After the MVP demo, inspired by other teams, we also adopted the circle as the other encoding methods. The circle chart can show the "distribution", allowing users to "compare" between countries. Lastly, the data comes from OECD. We excluded the countries with missing data and joined the education data with geographic data for continental information.
-* Bar Chart<br>
-For this specific chart, we want to show the drill-down function for readers interested in understanding a specific year's data. We hope by providing the drill-down function, users can explore more insights and build trust in our data! We decided to allow "Year" and "Indicator" to be selectable to give the user some freedom to explore data. We also provide a "sort" function so that users can quickly gain some insights, such as max and min values in the country, from the chart. Lastly, since our chart has more than 20 bars, we decided to use three digit country ISO codes as labels to avoid overlapping labels on the user screen.
-<img src='img/bar_chart.png' width='80%'> 
+### **Abstract:**
+Manchester United is considered the most popular soccer club in the world. Its worldwide fan base reaches a 1.1 billion milestone in 2019. There are several reasons that make Manchester United so popular. Firstly, its team performance is among the top tier in the league. It has won 20 League titles, 12 FA Cups, five League Cups and a record 21 FA Community Shields. 
 
-* Bar Chart Race<br>
-From the research stage, we found that the bar chart race can quickly catch users' attention because its animation visualizes the figures' changes. We decided to make a bar chart race because we want users to be interested in our data. We added geographic attribute, continent to color the bar chars to use color encodings to convey more information effectively.  We decided on a play/pause button to give users more interaction modalities. We also make the year selectable in case users want to roll back to a specific year. Lastly, learning from the peer critique feedback,  we slow down the animation a bit so that users can see the progress. <br>
-<img src='img/bar_chart_race.png' width='80%'> 
+Secondly, Manchester United has successfully created individual wonder players over several generations. For example, Best, Beckham, and Ronaldo. Fans support not only the club but these players too. Thirdly, Manchester United has a long and last relationship with non-European countries. It often tours to Asia countries and the United States, interacting with existing fans and attracting new ones.
 
-* Gapminder Chart<br>
-We thought it would be interesting to see whether education levels and income levels are correlated. For that, we decided to recreate a Gapminder visualization made famous by Hans Rosling. It illustrates the movement of circles, which represent each country, in a chart space of per-capita income (x), education levels (y) and population (area) of 43 OECD member states over the last 30 years, colored by region. We placed a Play/Pause button to give more control to the audience in sliding through particular years as they wish.
-<br>
-<img src='img/gapminder_chart.png' width='80%'> 
+### **Summary Image:**
+<img src='images/summary_image.png'> 
 <br><br>
-<hr><br>
 
-**Development Process**<br>
+### **Running Instruction:**
+Use browser to access : https://6859-sp21.github.io/final-project-epl-fans/index.html
+<br>
+
+### **Development Process:**
 ***Overview*** <br>
-In the first meeting, we decided to use D3 as a prototyping tool and convert D3 to github website after we finish.  We also decided to adopt a multi-milestone stage for our A4 assignment. Details as below 
-* 1st Milestone<br>
-ByeongJo finished the research on how to embed D3 on the webpage and built the bone-structure of the website (5 hours); Brandon finished the bar chart ( 8 hours ).
-* 2nd Milestone<br>
-ByeongJo finished the Gapminder (circle animation) chart animation (11 hours); Brandon finish the bar chart race visualization (8 hours); Prepare for the MVP demo ( 2 hours * 2)
-* 3rd Milestone<br>
-Both of us digest the feedback from peer critiques and enhance the charts ( 8 hours *  2); Prepare write up for the final submission( 4 hours * 2 ) 
-* Total  Effort<br>
-ByeongJo ( 30 hours )<br>
-Brandon ( 30 hours )<br><br>
-
-**Challenges**
-* Bar Chart <br>
-Bar Chart is the first chart we made. The challenge we met is how to load and filter the data in D3. It took me a while to understand the data manipulation in D3. In addition, the chaining style in D3 is difficult to read and grasp.<br>
-* Bar Chart Race <br>
-When developing the Bar Chart Race, the challenging part for me is the color code. It is difficult to understand the logic at the beginning. Also, as we tried to control the speed of animation, we also spent some time to understand the keyframe concept.<br>
-* Gapminder Chart<br>
-Implementing the D3 codes was relatively easy thanks to well annotated codes from the original author. The most challenging part was the data wrangling. We had to merge data from different sources (education levels, income, and population) and transform into a format that can be fed into the D3 data pipeline. We also had to remove irrelevant data and fill in the missing data. We used bisection (https://en.wikipedia.org/wiki/Binary_search_algorithm) and linear interpolation to fill in the missing data. Some issues we experienced also include: there are countries like China and India (two biggest circles in the chart) who had very scare data in education that their movements in the chart in terms of education level are very limited. Moreover, there are drastic drops in income levels among european countries around 2015-2019, which we initially thought was a data quality issue, but later we concluded that it shows the actual drops in income levels caused by an economic recession in Europe.<br>
-
-* Website<br>
-We used a basic HTML-based website to deploy our visualization. We wanted to minimize the navigation burden of users, so we decided to place all the visualizations on the landing page. The users can either scroll-down to sequentially view the different charts or use the buttons on the left panel which are linked to the bookmarks placed at each chart to jump between the charts. Observable allows users to embed charts on different platforms using iframe, javascript, or react. For our implementation, we used the iframe. This is a very useful way of deploying the charts, because all the deployed charts are synchronized to Observable, so the updates you make on the original chart will be simultaneously reflected on the charts that are deployed on different platforms.
-
-<hr>
-
-**Acknowledgement**<br>
-* Data Source: https://data.oecd.org/eduatt/adult-education-level.htm#indicator-chart
-* Bar Chart Race: https://observablehq.com/@d3/bar-chart-race-explained
-* Bar Chart: https://observablehq.com/@d3/bar-chart
-* Bar Chart Sortable: https://observablehq.com/@d3/sortable-bar-chart
-* Gapminder Chart: https://observablehq.com/@mbostock/the-wealth-health-of-nations
+In the first meeting, we decided the topic for doing a project with English Premier League data. The reason is that both of us are big fans of soccer games. We decided to leverage the knowledge we have in A4 and use D3 and Javascript as our main tool.
+ 
+### **~6 weeks of concerted efforts**
+#### **1st Week**
+Both started to explore the different datasets. After the first week, we decided to make visualizations for three different directions, Player Static, Team Performance, and Social Media Analysis. ( Both of us spent around 8 hours this week ) 
+#### **2nd Week**
+We received feedback from the Professor and decided to spend one more week to brainstorm the idea. We went to the office hours and explored more datasets. ( Both of us spent 8 hours this week )
+#### **3rd Week**
+From our data, we decided the scope of visualizations, a bubble chart for transfer fee, a radar chart for team performance, a line chart for attack points, bubble chart for social media number comparison and a map chart for social media followers . ( Both of us spent 8 hours this week )
+#### **4th Week**
+- Jo : Bubble chart for transfer fee  ( ~ 12 hours )
+Brandon : Map chart for social media follower have completed ( ~ 12 hours ) 
+#### **5th Week**
+- Jo : Radar chart for team performance was completed ( ~ 12 hours )
+- Brandon : Line chart for attacking point was completed ( ~ 12 hours )
+#### **6th Week**
+- Jo : bubble chart for social media number comparison and Integrate the website ( ~ 24 hours )
+- Brandon : Fine tune the map chart and line chart and prepare the write up ( ~ 24 hours ) 
+#### **Total Effort**
+- ByeongJo ( ~ 72 hours )
+- Brandon ( ~ 72 hours )
